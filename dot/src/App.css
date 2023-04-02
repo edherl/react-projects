@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  margin: 5em;
+  padding: 0.5em 2em;
+  font-size: 1.1em;
+}
+
+.undo {
+  background-color: #e26868;
+  color: #191919;
+  border: #191919 1px solid;
+}
+
+.undo:hover {
+  cursor: pointer;
+  background-color: #cc3636;
+  transition: 0.5s ease;
+}
+
+.redo {
+  background-color: #a6bb8d;
+  color: #191919;
+  border: #191919 1px solid;
+}
+
+.redo:hover {
+  cursor: pointer;
+  background-color: #61876e;
+  transition: 0.5s ease;
+}
+
+.page {
+  background: #efefef;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.dot {
+  height: 0.5em;
+  width: 0.5em;
+  background: #cf0a0a;
+  position: absolute;
+}
